@@ -1,11 +1,11 @@
-# make-it-count
+# Make It Count 
 
 A Claude Code skill that reads your real session history, measures how you
-actually work, and hands back a prioritized punch list for spending less to do
+actually work, and hands back a prioritized list for spending less to do
 more.
 
-You do not need a 20x Max plan and a fleet of agents to do real work. You need
-to make every token count. This tells you where yours are going.
+If we don't have $2000/month in token budget, we need
+to make every token count. 
 
 ## What it does
 
@@ -122,5 +122,3 @@ Treat it as directional, and update the rates when prices move.
 MIT. See [LICENSE](LICENSE).
 
 ---
-
-Built from [a thread](https://x.com/krispuckett/status/2064004774476046625) on making every token count.
