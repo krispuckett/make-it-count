@@ -65,25 +65,27 @@ reciting generic advice.
 ```
 # make-it-count report
 
-Scanned 32 sessions, 27.9K transcript lines. Estimated spend in window: $3140.
+Scanned 18 sessions, 9.4K transcript lines. Estimated spend in window: $214.
 
 ## Where your tokens went
 
 | Model  | Turns | Tokens | Share | Est. cost |
 |--------|------:|-------:|------:|----------:|
-| opus   | 11571 |  3.08B |   99% |     $3135 |
-| sonnet |    12 | 589.2K |    0% |     $0.88 |
-| haiku  |   341 |  15.2M |    0% |     $3.96 |
+| opus   |  1240 |   480M |   76% |   $205.00 |
+| sonnet |    90 |   110M |   17% |     $7.20 |
+| haiku  |    60 |    42M |    7% |     $1.50 |
 
 ## Top moves
 
-1. Right model for the job [FIX] - route routine edits to Sonnet, grunt work to Haiku
-2. One task per chat [FIX] - 19 of 32 chats ran past 100 turns
-3. Plan in Opus, build in Sonnet [FIX] - 3% of chats shifted tiers
+1. Right model for the job [FIX] - 76% of tokens on Opus; route routine edits to Sonnet, grunt work to Haiku
+2. One task per chat [WATCH] - 4 of 18 chats ran past 100 turns
+3. Leave yourself a note [FIX] - 0 handoff notes written this window
 ...
 
 Constraints make you more precise, if you let them.
 ```
+
+(Sample figures. Your report uses your own numbers.)
 
 ## Configuration
 
@@ -121,4 +123,4 @@ MIT. See [LICENSE](LICENSE).
 
 ---
 
-Built from [a thread](https://x.com/krispuckett) on making every token count.
+Built from [a thread](https://x.com/krispuckett/status/2064004774476046625) on making every token count.
